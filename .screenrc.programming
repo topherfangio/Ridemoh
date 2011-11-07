@@ -1,0 +1,8 @@
+source $HOME/.screenrc
+
+screen -t World
+screen -t Jail
+screen -t Usr
+screen -t Var
+screen -t Editor
+screen -t Database
