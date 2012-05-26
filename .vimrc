@@ -30,5 +30,6 @@ if has("autocmd")
   " Use the default filetype settings, so that mail gets 'tw' set to 72,
   " 'cindent' is on in C files, etc.
   " Also load indent files, to automatically do language-dependent indenting.
+  call pathogen#infect()
   filetype plugin indent on
 endif
