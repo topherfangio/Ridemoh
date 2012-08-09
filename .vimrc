@@ -1,3 +1,6 @@
+" Temporarilly turn off the filetype for pathogen
+filetype off
+
 colorscheme desert
 set term=builtin_ansi
 
@@ -31,5 +34,6 @@ if has("autocmd")
   " 'cindent' is on in C files, etc.
   " Also load indent files, to automatically do language-dependent indenting.
   call pathogen#infect()
+  call pathogen#runtime_append_all_bundles()
   filetype plugin indent on
 endif
