@@ -1,0 +1,6 @@
+# Ignore Mac Files
+.DS_Store
+
+# Ignore Vim Files
+*.swp
+*.swo
