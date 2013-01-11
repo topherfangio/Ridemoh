@@ -20,6 +20,7 @@ do
 			PATH="$PATH:$new_path"
 	fi
 done
+PATH="/usr/local/bin:$PATH"
 
 # Set the default editor to vim, you can safely change this to
 # the editor of your choosing.
@@ -27,14 +28,18 @@ export EDITOR="/usr/bin/vim"
 export SVN_EDITOR="/usr/bin/vim"
 
 # Some convenience aliases
- alias pscreen="screen -c $HOME/.screenrc.programming"
- alias sscreen="screen -c $HOME/.screenrc.server"
- alias calc="bc -l"
- alias vi="vim"
- alias ll='ls -l'
- alias la='ls -al'
+alias pscreen="screen -c $HOME/.screenrc.programming"
+alias rscreen="screen -c $HOME/.screenrc.rails"
+alias sscreen="screen -c $HOME/.screenrc.server"
+alias calc="bc -l"
+alias vi="vim"
+alias ll='ls -l'
+alias la='ls -al'
 
 # Some more alias to avoid making mistakes:
- alias rm='rm -i'
- alias cp='cp -i'
- alias mv='mv -i'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+# Ruby/Rails aliases
+alias be='bundle exec'
