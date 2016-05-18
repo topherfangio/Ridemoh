@@ -10,7 +10,7 @@ set bs=2
 set nohls
 set cin
 set ts=2 sw=2 expandtab
-set tw=200
+set tw=120
 
 " Set up all of my 'useful' mappings
 map [ k:res<CR>
