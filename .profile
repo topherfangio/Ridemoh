@@ -27,6 +27,10 @@ PATH="/usr/local/bin:$PATH"
 export EDITOR="/usr/bin/vim"
 export SVN_EDITOR="/usr/bin/vim"
 
+# Colors for OSX terminal, and ls colors that match linux ls
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
 # Some convenience aliases
 alias pscreen="screen -c $HOME/.screenrc.programming"
 alias rscreen="screen -c $HOME/.screenrc.rails"
