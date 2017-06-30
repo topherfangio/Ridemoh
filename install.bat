@@ -9,6 +9,7 @@ IF NOT "%1"=="" (
 
   cp -r .vim %1
   cp .bashrc %1
+  cp .gitignore %1
   cp .profile %1
   cp .screenrc %1
   cp .screenrc.programming %1
