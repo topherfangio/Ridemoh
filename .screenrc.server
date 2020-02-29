@@ -6,3 +6,4 @@ screen -t Console
 screen -t Command
 screen -t Editor
 screen -t Database
+screen -t Logs
