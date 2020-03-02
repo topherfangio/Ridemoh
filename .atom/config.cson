@@ -1,0 +1,59 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "6aec187b-7189-4c4a-83da-0099323c9f87"
+  "atom-shell-commands":
+    commands: [
+      {
+        arguments: []
+        command: "yard"
+        name: "yard"
+        options:
+          cwd: "{ProjectDir}"
+          keymap: "shift-cmd-Y"
+      }
+    ]
+  "better-git-blame":
+    searchInLayerEnabled: false
+  "bracket-matcher":
+    autocompleteCharacters: [
+      "()"
+      "[]"
+      "{}"
+      "``"
+      "«»"
+      "‹›"
+    ]
+  core:
+    customFileTypes:
+      "source.css.less": [
+        "overrides"
+        "variables"
+      ]
+      "source.js": [
+        "babel"
+      ]
+      "text.html.ruby": [
+        "eco"
+      ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "synthwave-syntax"
+    ]
+  editor:
+    atomicSoftTabs: false
+    fontSize: 20
+  "exception-reporting":
+    userId: "643fbd6f-411c-4d38-93d5-8486c3dc693b"
+  "fuzzy-finder":
+    scoringSystem: "fast"
+    useRipGrep: true
+  "linter-ui-default":
+    showPanel: true
+  "markdown-preview":
+    useGitHubStyle: true
+  "tree-view": {}
+  "vim-mode-plus": {}
+  welcome:
+    showOnStartup: false
