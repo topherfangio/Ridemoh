@@ -16,3 +16,4 @@ alias mv='mv -i'
 
 # Ruby/Rails aliases
 alias be='bundle exec'
+alias bspec='RSPEC_RETRY_COUNT=0 bundle exec rspec'
