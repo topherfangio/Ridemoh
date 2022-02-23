@@ -19,7 +19,6 @@ if [ -n "$1" ]; then
   cp .screenrc.rails $1
   cp .screenrc.server $1
   cp .vimrc $1
-  cp .zshrc $1
   
   echo "Done!"
 else
