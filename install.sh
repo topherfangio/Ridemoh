@@ -7,6 +7,8 @@
 if [ -n "$1" ]; then
   echo "Installing files to $1..."
   
+  cp -r .atom $1
+  cp -r .git $1
   cp -r .vim $1
   cp -r .oh-my-zsh $1
   cp .bashrc $1
@@ -14,8 +16,10 @@ if [ -n "$1" ]; then
   cp .profile $1
   cp .screenrc $1
   cp .screenrc.programming $1
+  cp .screenrc.rails $1
   cp .screenrc.server $1
   cp .vimrc $1
+  cp .zshrc $1
   
   echo "Done!"
 else
