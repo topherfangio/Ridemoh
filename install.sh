@@ -8,7 +8,6 @@ if [ -n "$1" ]; then
   echo "Installing files to $1..."
   
   cp -r .atom $1
-  cp -r .git $1
   cp -r .vim $1
   cp -r .oh-my-zsh $1
   cp .bashrc $1
