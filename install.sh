@@ -14,8 +14,6 @@ if [ -n "$1" ]; then
   cp .gitignore $1
   cp .profile $1
   cp .screenrc $1
-  cp .screenrc.programming $1
-  cp .screenrc.rails $1
   cp .screenrc.server $1
   cp .vimrc $1
   
