@@ -1,8 +1,6 @@
 # Below are all of my common aliases
 
 # Some convenience aliases
-alias pscreen="screen -c $HOME/.screenrc.programming"
-alias rscreen="screen -c $HOME/.screenrc.rails"
 alias sscreen="screen -c $HOME/.screenrc.server"
 alias calc="bc -l"
 alias vi="vim"
